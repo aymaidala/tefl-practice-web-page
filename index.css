@@ -1,0 +1,945 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+    /* background-color: yellow; */
+}
+.tefllogo{
+    /* background-color: red; */
+    flex: 0.09;
+    padding: 0.5rem;
+    align-self: center;
+}
+.tefllogo img{
+    height: 60px;
+    width: auto;
+    align-self: center;
+    /* padding: 1.5rem; */
+}
+.topmenu{
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    flex: 0.15;
+    color: #309db6;
+    font-size: 20px;
+    
+    
+}
+.fa-magnifying-glass{
+    align-self: center;
+    padding: 0.1rem 0 0.1rem 0;
+}
+.fa-magnifying-glass:hover{
+    cursor: pointer;
+}
+.shoping-icon{
+    color: rgb(57, 55, 55);
+    align-self: center;
+}
+.shoping-icon:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.GRB{
+    display: flex;
+    align-self: center;
+}
+.GRB img{
+    height: 20px;
+    width: auto;
+    padding: 0 0.3rem 0 0;
+}
+.GRB:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.request-a-brocure{
+    align-self: center;
+}
+.request-a-brocure:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.free-tester{
+    align-self: center;
+}
+.free-tester:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Enrol-now{
+    background-color: rgb(115, 172, 154);
+    font-size:17px;
+    border-radius: 15px;
+    height: 40px;
+    align-self: center;
+    color: white;
+    border: none;
+    
+}
+.Enrol-now:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.My-Account{
+    background-color: #309db6;
+   font-size:17px;
+   border-radius: 15px;
+   height: 40px;
+   align-self: center;
+   color: white;
+   border: none;
+   
+}
+.My-Account:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.topmenu2{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex: 0.7;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.topmenu2 div{
+    padding: 1rem;
+}
+.Second-Menu{
+    background-color: #309db6;
+    display: flex;
+    justify-content: center;
+    /* padding: 1.5rem; */
+    color: white;
+    font-size: 16px;
+    font-family: runda,roboto,sans-serif;
+    position: sticky;
+    top: 0;
+}
+.Second-Menu div{
+    padding: 1.5rem;
+     
+}
+.Second-Menu div i{
+    padding: 3px;
+}
+.tefl-courses{
+    /* background-color: red; */
+    display: flex;
+}
+.tefl-courses:hover{
+    background-color: #3b5774;
+    cursor: pointer;
+}
+.New-to-TEFL{
+    /* background-color: aquamarine; */
+    display: flex;
+    
+}
+.New-to-TEFL:hover{
+    background-color: #3b5774;
+    cursor: pointer;
+}
+.Locations{
+    /* background-color: green; */
+    display: flex;
+}
+.Locations:hover{
+    background-color: #3b5774;
+    cursor: pointer;
+}
+.TEFL-Jobs{
+    /* background-color: aqua; */
+    display: flex;
+}
+.TEFL-Jobs:hover{
+    background-color: #3b5774;
+    cursor: pointer;
+}
+
+.Teach-Abroad{
+    /* background-color: gray; */
+    display: flex;
+}
+.Teach-Abroad:hover{
+    background-color: #3b5774;
+    cursor: pointer;
+}
+.Teach-Online{
+    /* background-color: purple; */
+    display: flex;
+}
+.Teach-Online:hover{
+    background-color: #3b5774;
+    cursor: pointer;
+}
+.About-Us{
+    /* background-color: pink; */
+    display: flex;
+}
+.About-Us:hover{
+    background-color: #3b5774;
+    cursor: pointer;
+}
+.Blog{
+    background-color:#309db6;
+}
+.Blog:hover{
+    background-color: #3b5774;
+    cursor: pointer;
+}
+.save-up-to{
+    background-color: rgb(70, 196, 158);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: runda,roboto,sans-serif;
+    font-size: larger;
+    margin-top: 1px;
+    padding: 1rem 2rem;
+}
+.offer-div{
+    /* background-color: green; */
+    /* flex: 0.4; */
+   font-size: 25px;
+   /* justify-content: center; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+/* .offer{
+    padding-left: 6rem;
+} */
+
+.end-of-offer{
+   padding-left: 4rem;
+}
+.icon-timers{
+   display: flex; 
+   /* padding-left: 4rem; */
+   
+   
+}
+.icon-timers div{
+    padding: 0 5px 0px 5px;
+    font-size: 15px;
+    
+}
+.icon-timers button{
+    height: 40px;
+    width: 45px;
+    border-radius:10px;
+    font-family:roboto;
+    font-size: 20px;
+    font-weight:bolder;
+    color:rgb(76, 75, 75);
+    background-color: white;
+    border: none;
+}
+.icon-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.offers-button{
+    /* background-color: greenyellow; */
+    align-self: center;
+
+}
+.offers-button button{
+    height: 60px;
+    width: 350px;
+    background-color:  #1c6758;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.save-up-to-50{
+    /* background-color: brown; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.image-container{
+    background-color: bisque;
+    /* position: absolute; */
+    left: 0;
+    right: 0;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+    
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image: url(/slider-bg10-scaled.jpg-06b3f5.webp);
+    }
+    25%{
+        background-image: url(/slider-bg12-scaled.jpg-04b84f.webp);
+    }
+    50%{
+        background-image: url(/slider-bg7-scaled.jpg-bccc89.webp);
+    }
+    75%{
+        background-image: url(/slider-bg9-scaled.jpg-d244c8.webp);
+    }
+}
+.outer-container{
+    background-color: transparent;
+}
+.August-sale-div{
+    color: #3b5774;
+    font-size: 30px;
+}
+.world-accredited-tefl{
+    padding-left: 5rem;
+}
+.TEFL-course{
+    padding-left: 7rem;
+}
+.all-courses-and-resources{
+    padding-left: 5rem;
+}
+.blue-aug-div{
+    font-family: omnes-pro,runda,roboto,sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.blue-august{
+    color: #309db6;
+    /* font-size: 80px; */
+    font-weight: bolder;
+    /* font-family: sans-serif; */
+    font-family: Bungee;
+}
+.blue-now-on{
+    color: #3b5774;
+    padding-left: 5rem;
+}
+.strong-50{
+    color: #3b5774;
+    font-size: 30px;
+}
+.up-to{
+    padding-left: 9rem;
+}
+.all-courses-and-resources{
+    color: #3b5774;
+    font-size: 30px;
+}
+.view-all-offers{
+    background-color: palevioletred;
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    font-size: 25px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+.view-all-offers:hover{
+    background-color: rgb(207, 29, 29);
+}
+.our-customers{
+    font-size: 25px;
+    padding-left: 3rem;
+    color: #3b5774;
+}
+.our-customers1{
+    font-size: 25px;
+    padding-left: 5rem;
+    color: #3b5774;
+
+}
+.our-customers i{
+    color: gold;
+}
+.Most-accredited-section{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #3b5774;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+.Most-accredited-section strong{
+    font-weight: bolder;
+}
+.Most-accredited{
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.Inter-recog{
+    /* background-color: #1c6758; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Over-{
+    /* background-color: #3b5774; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.percent-graduate{
+    /* background-color: blueviolet; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fa-solid{
+    color: lightgreen;
+    font-weight: 900;
+}
+.accreditation-image{
+    margin: 2rem;
+
+}
+.accreditation-image img{
+    align-content: center;
+    height: 130px;
+    width: auto;
+    padding: 1rem 3rem 1rem 23rem;
+}
+.guadian-image{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+}
+.guadian-image img{
+    height: 80px;
+    width: 150px;
+    padding: 2rem;
+}
+.heading{
+    display: flex;
+   color: #309db6;
+    font-size: 60px;
+    font-family: bungee;
+    align-items: center;
+    justify-content: center;
+}
+.from-teachers{
+     color: black;
+}
+.train-class p{
+    font-size: 30px;
+    font-family: bungee;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+}
+.from-our-founders{
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+.teach-english{
+    /* background-color: aqua; */
+    display: flex;
+}
+.teach-english-div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex: 0.5;
+    padding: 5rem 2rem 1rem 2rem;
+    font-size: 20px;
+    line-height: 40px;
+}
+.teach-english-div1{
+    flex: 0.5;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40rem;
+    width: 45rem; 
+}
+.our-best-selling{
+    background-image: url("/team_mask1.png");
+    background-position: center;
+    /* height: 55rem;
+    width: 6rem; */
+    background-size: cover;
+    margin: 0;
+    padding: 4rem 4rem;
+    border-radius: 40px;
+
+
+}
+.premier-course-image{
+    height: 60rem;
+    width: 40rem;
+    margin-top: 0; 
+    background-color: #1c6758;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 0;
+    
+
+}
+.premier-course-image img{
+    margin-top: 0;
+    height: 25rem;
+    width: 40rem;
+
+}
+.our-best-selling2{
+    /* color: white; */
+    font-size: 30px;
+    align-items: center;
+    text-align: center;   
+    margin-top: 0;
+}
+
+
+.our-best-selling button{
+    height: 45px;
+    width: 200px;
+    background-color:  #1c6758;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    margin: 2rem 0 2rem 0;
+    border-color: white;
+}
+.our-best-selling2 button:hover{
+    background-color: white;
+    color: #309db6;
+}
+.bluediv{
+    display: flex;
+    margin-top: 3rem;
+    font-family: bungee;
+}
+.teach-english-abroad{
+    background-color: red;
+    background-image: url("/teach_abroad_bg.jpg.webp");
+    flex: 0.5;
+    background-position: center;
+    font-size: 20px;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 8rem;
+    color: white;
+    align-items: center;
+    text-align: center; 
+
+}
+.teach-english-abroad button{
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.explore1 button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+
+}
+.explore1 button:hover{
+    background-color: white;
+    color: #3b5774;
+}
+.explore2 button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+    width: 450px;
+    height: 50px;
+    margin-top: 1rem;
+}
+.explore2 button:hover{
+    background-color: white;
+    color: #3b5774;
+}
+
+.teach-english-online{
+    background-color: blueviolet;
+    background-image: url("/teach_online_bg.jpg.webp");
+    flex: 0.5;
+    background-position: center;
+    font-size: 20px;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    color: white;
+    padding: 8rem;
+    align-items: center;
+    text-align: center; 
+}
+
+.teach-english-online button{
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.explore3 button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+    width: 450px;
+    height: 50px;
+    margin-top: 1rem;
+}
+.explore3 button:hover{
+    background-color: white;
+    color: #3b5774;
+}
+.explore4 button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+    width: 450px;
+    height: 50px;
+    margin-top: 1rem;
+}
+.explore4 button:hover{
+    background-color: white;
+    color: #3b5774;
+}
+.redclass{
+    background-color: coral;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+    
+
+
+}
+.freeclick{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 54px;
+    /* padding-top: 3rem; */
+    align-items: center;
+    text-align: center; 
+    
+}
+.redclass p{
+    font-size: 25px;
+    align-items: center;
+    text-align: center; 
+}
+.redclass button{
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+     
+}
+.redclass button:hover{
+    background-color: white;
+    color: #3b5774;
+    margin: 0;
+}
+.teamwork img{
+    height:40rem;
+    width: 100rem;
+}
+.Get-your{
+    background-color: #1c6758;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    height: 20rem;
+}
+.Get-your h1{
+    font-size: 3rem;     
+}
+
+.Get-your p{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+.Get-your button{
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    color: white;
+    background-color: #1c6758;
+    border-radius: 25px;
+    border-color: white;
+
+}
+.Get-your button:hover{
+    background-color: white;
+    color: #1c6758;
+}
+.brocure-image{
+    flex: 0.5;
+     
+}
+.brocure-image img{
+    height:30rem;
+    width: auto;
+    position: relative;
+    top: -70px;  
+}
+.Get-your-text{
+    text-align: center;
+    flex: 0.5;
+}
+
+.in-person{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 8rem;
+}
+.in-person-div1{
+    flex: 0.5;
+    font-size: 20px;
+    padding-top: 6rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+.in-person-div1 p{
+    padding-bottom: 1rem;
+}
+.in-person-div1 button{
+    height: 50px;
+    width: 800px;
+    background-color: #309db6;
+    border-radius: 25px;
+    font-size: 25px;
+    color: white;
+    border: none;
+    box-shadow: 3px 5px 7px rgb(122, 218, 206);
+}
+.in-person-div1 button:hover{
+    height: 51px;
+    width: 800px;
+    box-shadow: none;
+    
+    
+}
+
+.in-person-div2{
+    flex: 0.5;
+    padding: 5rem 0 2rem 4rem;
+
+}
+
+.our-guide-to-tefl{
+    display: flex;
+    background-color: #309db6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 20rem;
+    margin-top: 1rem;
+
+}
+.our-guide-to-tefl-div1{
+    flex: 0.55;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.our-guide-to-tefl-div1 h1{
+    font-weight: 900;
+}
+.our-guide-to-tefl-div2{
+    flex: 0.45;
+}
+.our-guide-to-tefl-div2 img{
+    height: 30rem;
+    width: auto;
+    position: relative;
+    top: -70px;
+    
+}
+.our-guide-to-tefl-div1 button{
+    height: 60px;
+    width: 300px;
+    font-size: 25px;
+    background-color: #309db6;
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+}
+.our-guide-to-tefl-div1 button:hover{
+    background-color: white;
+    color: #309db6;
+}
+
+.tefl-story{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 6rem;
+    font-size: 1.5rem;
+}
+.tefl-story img{
+    height: 20rem;
+    width: auto;
+    padding: 6rem 0 3rem 3rem;
+    
+}
+.tefl-story-div1{
+    flex: 0.25;
+}
+.tefl-story-div2{
+    flex: 0.5;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(97, 96, 96);
+}
+.tefl-story-div3{
+    flex: 0.25;
+}
+.background-map{
+    background-image: url("/map_bg_home.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    background-attachment: fixed;
+    display: flex;
+    font-size: 23px;
+    color: rgb(97, 96, 96);
+    
+}
+
+
+.transparent-div1{
+    flex: 0.5;
+    background-color: transparent;
+    padding: 2rem;
+    /* margin: 10rem; */
+}
+.transparent-div2{
+    flex: 0.5;
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 6rem;
+    
+}
+.transparent-div2 button{
+    height: 60px;
+    width: 800px;
+    border-radius: 25px;
+    font-size: 25px;
+    background-color: #309db6;
+    color: white;
+    border-color: white;
+}
+.transparent-div2 button:hover{
+    background-color: #206b7c;
+    color: white;
+}
+.tefl-org-grad{
+    display: flex;
+    background-color: aliceblue;
+    color: rgb(97, 96, 96);
+}
+.tefl-org-grad1{
+    flex: 0.5;
+    font-size: 25px;
+    padding: 4rem 2rem 1rem 1rem;
+
+}
+.slider{
+    flex: 0.5;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.slider figure div{
+    float: left;
+    width: 20%;
+    /* position: relative; */
+    margin-top: 4rem;
+    
+}
+.slider img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no no-repeat;
+    float: left;
+}
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: animate 20s infinite;
+}
+@keyframes animate{
+    0%{left:0;}
+    10%{left:0;}
+    12%{left:-100%;}
+    22%{left:-100%;}
+    24%{left:-200%;}
+    34%{left:-200%;}
+    36%{left:-300%;}
+    46%{left:-300%;}
+    48%{left:-400%;}
+    58%{left:-400%;}
+    60%{left:-300%;}
+    70%{left:-300%;}
+    72%{left:-200%;}
+    82%{left:-200%;}
+    84%{left:-100%;}
+    94%{left:-100%;}
+    96%{left:0%;}
+}
+.whiteboard-technique{
+    /* background-color: grey; */
+    display: flex;
+    margin-top: 5rem;
+}
+
+
+.whiteboard-technique-img{
+    flex: 0.52;
+    background-image: url("/background\ image\ 1\ slider-mobile1-0b50ae.webp");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    
+}
+.whiteboard-technique-img-contain{
+    background-color: #309db6;
+    height: 60rem;
+    width: 42rem;
+    /* padding: 2rem; */
+    margin: 0;
+}
+
+.whiteboard-technique-img img{
+    width: 42rem;
+    padding: 4rem;
+    background-color:  #309db6;
+    
+    
+}
+.whiteboard-technique2{
+    flex: 0.48;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(97, 96, 96);
+}
+
